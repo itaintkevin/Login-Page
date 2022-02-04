@@ -1,0 +1,127 @@
+html {
+  margin: 0;
+}
+body {
+  background: rgb(74, 67, 161);
+  background: linear-gradient(
+    90deg,
+    rgba(74, 67, 161, 1) 0%,
+    rgba(166, 34, 180, 1) 50%,
+    rgba(127, 45, 175, 1) 100%
+  );
+  margin: 0 auto;
+}
+#container {
+  width: 1400px;
+  height: 775px;
+  display: inline-block;
+  margin: 100px 10px 10px 250px;
+  box-shadow: 10px 10px 5px 2px rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: space-between;
+}
+
+#content div {
+  width: 900px;
+  height: 775px;
+  padding: 100px 100px 100px 100px;
+}
+
+#picture div {
+  width: 500px;
+  height: 775px;
+  margin-right: 800px;
+}
+
+#content h1 {
+  color: black;
+  font-family: Papyrus;
+  font-weight: bold;
+  font-size: 50px;
+  text-align: center;
+}
+#content button {
+  width: 500px;
+  height: 60px;
+  color: white;
+  background-color: rgb(128, 57, 185);
+  border-style: none;
+  border-radius: 20px;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 40px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 205px;
+}
+#picture h1 {
+  color: white;
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 30px;
+  text-align: left;
+  margin-top: 80px;
+  margin-left: 180px;
+}
+#picture h2 {
+  color: white;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 70px;
+  margin-left: 5px;
+}
+#picture button {
+  color: rgb(236, 236, 236);
+  background-color: transparent;
+  border-style: groove;
+  border-radius: 10px;
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 380px;
+  margin-left: 205px;
+}
+#content input[type="text"] {
+  width: 300px;
+  height: 30px;
+  font-size: 25px;
+  border-color: rgb(128, 57, 185);
+  border-style: none;
+  border-bottom: 1px solid;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+#content input[type="password"] {
+  width: 300px;
+  height: 30px;
+  font-size: 25px;
+  border-color: rgb(128, 57, 185);
+  border-style: none;
+  border-bottom: 1px solid;
+  margin-top: 30px;
+  margin-left: 300px;
+}
+
+#content label {
+  color: black;
+  font-family: "Lucida Console";
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  margin-top: 50px;
+  margin-left: 300px;
+}
+#content h3 {
+  color: rgb(101, 61, 124);
+  font-family: Arial;
+  font-weight: 400;
+  font-size: 22px;
+  text-align: center;
+  margin-top: 40px;
+}
+#content img {
+  margin-left: 105px;
+}
